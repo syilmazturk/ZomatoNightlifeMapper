@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Zomato Nightlife Mapper
+qgisMinimumVersion=2.0
+description=The plugin generates nightlife popularity grid for the given area of interest using Zomato's Nightlife Index.
+version=0.1
+author=Serhat YILMAZTURK
+email=serhat@yilmazturk.info
+
+about=The plugin generates nightlife popularity grid for the given area of interest. The datasource is Zomato which is one of the most important restaurant search and discovery service on the Internet. Zomato API provides highly detailed location information such as nightlife index, popular cuisines and user reviews of nearby places etc. The plugin produces point grid for the specified point interval, fetches nightlife index data and assigns for each point. Nightlife popularity maps can be prepared using spatial interpolation methods with this data.
+
+tracker=https://github.com/syilmazturk/ZomatoNightlifeMapper
+repository=https://github.com/syilmazturk/ZomatoNightlifeMapper
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, processing, web
+
+homepage=https://github.com/syilmazturk/ZomatoNightlifeMapper
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
